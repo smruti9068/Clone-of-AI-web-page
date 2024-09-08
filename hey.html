@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My AI</title>
+    <link rel="stylesheet" href="style1.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <meta name=viewport content="width=device-width, initial-scale=0">
+</head>
+
+<body>
+    <div class="container">
+        <b>ChatBot</b>
+        <h1 class="heading">Hello, How can i help you?</h1>
+        <div class="prompt-suggestions anim">
+           
+            <div class="prompt-bubble anim1" onclick="insertText('prompt-input', 'Tell me how to improve the performance of my product');">
+                <span>Tell me how to improve the performance of my product</span>
+            </div>
+            
+            <div class="prompt-bubble anim2" onclick="insertText('prompt-input', 'How to add durability to my product');">
+                <span>How to add durability to my product</span>
+            </div>
+
+            <div class="prompt-bubble anim3" onclick="insertText('prompt-input', 'Recommend some new designs for my product');">
+                <span>Recommend some new designs for my product</span>
+            </div>
+
+            <div class="prompt-bubble anim4" onclick="insertText('prompt-input', 'Can you review my product');">
+                <span>Can you review my product</span>
+            </div>
+            <div id="s">
+                <h1>TITLE</h1></div>
+        </div>
+        
+        <input type="text" class="animbox" id="prompt-input" placeholder="Enter your prompt...">
+        <button id="submit-button">Submit</button>
+        
+        <footer>
+            <p class="foot">ChatBot may display inaccurate info, including about people, so double-check its responses.</p>
+        </footer>
+
+    </div>
+    
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>

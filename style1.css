@@ -1,0 +1,166 @@
+
+body {
+    font-family: Arial, sans-serif;
+    /* background-color: #f0f0f0; */
+    background-color: #efe8f9;
+}
+
+
+.container {
+    background-color: #e3d7f5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 98%;
+    height: 97%;
+    margin: 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.heading{
+    background: -webkit-linear-gradient(#1100ff, #ff0000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: 0;
+    text-align: center;
+    transform: translateY(40px);
+    animation: moveup 0.3s linear forwards;
+}
+@keyframes moveup{
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.anim1{
+    opacity: 0;
+    transform: translateY(20px);
+    animation: moveup 1s linear forwards;
+}
+@keyframes moveup{
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+.anim2{
+    opacity: 0;
+    transform: translateY(20px);
+    animation: moveup 1.2s linear forwards;
+}
+@keyframes moveup{
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+.anim3{
+    opacity: 0;
+    transform: translateY(20px);
+    animation: moveup 1.4s linear forwards;
+}
+@keyframes moveup{
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+.anim4{
+    opacity: 0;
+    transform: translateY(20px);
+    animation: moveup 1.6s linear forwards;
+}
+@keyframes moveup{
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+.animbox{
+    opacity: 0;
+    transform: translatez(40px);
+    animation: moveup .5s linear forwards;
+}
+@keyframes moveup{
+    100%{
+        opacity: 1;
+        transform: translateZ(0px);
+    }
+}
+
+.prompt-suggestions {
+    margin-bottom: 20px;
+}
+
+.prompt-bubble {
+    display: inline-block;
+    margin: 10px;
+    padding: 35px;
+    width: 120px;
+    height: 100px;
+    background-color: #ffd8ff;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    cursor: pointer;
+    border-top-right-radius: 0%;
+}
+
+.prompt-bubble span {
+    font-size: 14px;
+    color: #666;
+}
+
+.prompt-bubble:hover {
+    background-color: #ecd2eb;
+}
+
+#s{
+     font-size: 35px;
+    color: #a59fa5;
+      text-align: center;
+      margin-top: 80px;
+  }
+
+#prompt-input {
+    position: fixed;
+    margin: 20px;
+    margin-left: 10px;
+    bottom: 75px;
+    left: 15px;
+    width: 90%;
+    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+}
+
+#submit-button {
+    position: fixed;
+    bottom: 25px;
+    margin: 20px;
+    margin-top: 10px;
+    width: 15%;
+    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #957bea;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+#submit-button:hover {
+    background-color: #ba97ef;
+}
+
+.foot{
+    font-size: small;
+    position: fixed;
+    bottom: 5px;
+}
